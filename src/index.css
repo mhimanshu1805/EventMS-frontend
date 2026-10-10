@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* One palette for the whole app. Use bg-brand, text-brand, bg-brand-soft, and so on. */
+@theme {
+  --color-brand: #0f766e;
+  --color-brand-dark: #115e59;
+  --color-brand-soft: #f0fdfa;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+}
